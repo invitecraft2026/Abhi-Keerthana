@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import { SectionHeading } from "./SectionHeading";
-import g1 from "@/assets/image1.png";
-import g2 from "@/assets/image2.png";
-import g3 from "@/assets/image3.jpeg";
-import g4 from "@/assets/image4.jpg";
-import g5 from "@/assets/image5.png";
+import g1 from "@/assets/coupleimages/image1.jpeg";
+import g2 from "@/assets/coupleimages/image5.jpeg";
+import g3 from "@/assets/coupleimages/image7.jpeg";
+import g4 from "@/assets/coupleimages/image2.jpeg";
+import g5 from "@/assets/coupleimages/image6.jpeg";
 const images = [
   { src: g1, caption: "Jasmine & marigold", span: "row-span-2" },
   { src: g2, caption: "Sacred deepam", span: "" },
@@ -34,7 +34,7 @@ export function Gallery() {
               alt={im.caption}
               loading="lazy"
               className={`h-full w-full object-cover transition-transform duration-[1600ms] ease-out group-hover:scale-110 ${
-                i === 4 ? "object-top" : "object-center"
+                i === 4 ? "object-bottom" : "object-center"
               }`}
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-deep-brown/70 via-transparent to-transparent opacity-70" />

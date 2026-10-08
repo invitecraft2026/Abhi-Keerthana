@@ -73,7 +73,7 @@ export function Hero() {
           transition={{ duration: 1.8, delay: 0.6, ease: [0.19, 1, 0.22, 1] }}
           className="mt-6 font-script text-[clamp(3rem,9vw,6.5rem)] leading-[0.9] text-deep-brown"
         >
-         Virat Kohli
+         Abhi
         </motion.h1>
 
         {/* <motion.p
@@ -104,7 +104,7 @@ export function Hero() {
           transition={{ duration: 1.8, delay: 0.9, ease: [0.19, 1, 0.22, 1] }}
           className="font-script text-[clamp(3rem,9vw,6.5rem)] leading-[0.9] text-deep-brown"
         >
-          Anushka Sharma
+          Keerthana
         </motion.h1>
 
         {/* <motion.p

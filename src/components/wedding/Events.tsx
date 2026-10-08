@@ -1,15 +1,24 @@
 import { motion } from "framer-motion";
 import { Calendar, Clock, MapPin } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-import coupleEvents from "@/assets/image2.png";
+import coupleEvents from "@/assets/coupleimages/image3.jpeg";
 
 const events = [
   {
     tag: "Wedding Ceremony",
     title: "Marriage",
-    date: "Monday · 7 September 2026",
-    time: "Mugurtham · 9:00 – 10:30 AM",
-    location: "Crystal Convention Centre, Trichy",
+    date: "Saturday · 21 November 2026",
+    time: "Evening · 4:30 PM",
+    location: "Ripples Backwater Resort, Kureepuzha, Kollam 691601",
+    map: "https://share.google/eTZklByTkpiB100NY",
+  },
+  {
+    tag: "Reception",
+    title: "Reception",
+    date: "Sunday · 22 November 2026",
+    time: "Evening · 5:00 PM",
+    location: "Mukathala Mar Thoma Parish Hall, Kureepally",
+    map: "https://share.google/HIN4OQ2POoNT5YTS8",
   },
 ];
 
@@ -69,6 +78,15 @@ export function Events() {
                   <span className="tracking-wide">{e.location}</span>
                 </div>
               </div>
+
+              <a
+                href={e.map}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-6 inline-block text-[11px] tracking-[0.3em] text-rose-gold uppercase underline-offset-4 transition-colors hover:text-deep-brown hover:underline"
+              >
+                View on Map
+              </a>
 
               <div className="mt-8 flex items-center gap-3">
                 <span className="h-px flex-1 bg-gradient-to-r from-transparent via-rose-gold/40 to-transparent" />

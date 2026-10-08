@@ -63,26 +63,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
 
-      { title: "Virat Kohli & Anushka Sharma · A Wedding Invitation" },
+      { title: "Abhi & Keerthana · A Wedding Invitation" },
       {
         name: "description",
         content:
-          "Together with their families, Kowshik Raj & Niroopa Vijayakumar invite you to celebrate their  wedding on 6–7 September in Trichy.",
+          "Together with their families, Abhi & Keerthana invite you to celebrate their wedding on 21 November 2026 at Ripples Backwater Resort, Kollam, with a reception on 22 November.",
       },
 
       // Open Graph
       {
         property: "og:title",
-        content: "Virat Kohli & Anushka Sharma · A Wedding Invitation",
+        content: "Abhi & Keerthana · A Wedding Invitation",
       },
       {
         property: "og:description",
         content:
-          "Celebrate our Wedding — 6–7 September at Crystal Convention Centre, Trichy.",
+          "Celebrate our Wedding — 21 November 2026 at Ripples Backwater Resort, Kollam. Reception on 22 November.",
       },
       {
         property: "og:image",
-        content: "https://template1.invitecraft2026.workers.dev/image1.png",
+        content: "https://abhi-keerthana.invitecraft2026.workers.dev/image7.jpeg",
       },
       {
         property: "og:image:width",
@@ -94,7 +94,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       {
         property: "og:url",
-        content: "https://template1.invitecraft2026.workers.dev/image1.png",
+        content: "https://abhi-keerthana.invitecraft2026.workers.dev/image7.jpeg",
       },
       {
         property: "og:type",
@@ -108,15 +108,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       {
         name: "twitter:title",
-        content: "Virat Kohli & Anushka Sharma · A Wedding Invitation",
+        content: "Abhi & Keerthana · A Wedding Invitation",
       },
       {
         name: "twitter:description",
-        content: "Celebrate our Wedding — 6–7 September in Trichy.",
+        content: "Celebrate our Wedding — 21 November 2026 in Kollam. Reception on 22 November.",
       },
       {
         name: "twitter:image",
-        content: "https://template1.invitecraft2026.workers.dev/image1.png",
+        content: "https://abhi-keerthana.invitecraft2026.workers.dev/image7.jpeg",
       },
     ],
 

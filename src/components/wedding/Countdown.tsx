@@ -1,9 +1,9 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import { SectionHeading } from "./SectionHeading";
-import coupleCountdown from "@/assets/image1.png";
+import coupleCountdown from "@/assets/coupleimages/image1.jpeg";
 
-const TARGET = new Date("2026-09-07T09:00:00+05:30").getTime();
+const TARGET = new Date("2026-11-21T16:30:00+05:30").getTime();
 
 function diff(now: number) {
   const d = Math.max(0, TARGET - now);
