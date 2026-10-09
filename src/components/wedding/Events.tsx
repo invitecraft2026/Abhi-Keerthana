@@ -9,16 +9,18 @@ const events = [
     title: "Marriage",
     date: "Saturday · 21 November 2026",
     time: "Evening · 4:30 PM",
-    location: "Mukathala Mar Thoma Parish Hall, Kureepally",
+    location: "Ripples Backwater Resort, Kureepuzha, Kollam 691601",
     map: "https://share.google/HIN4OQ2POoNT5YTS8",
+   
+    
   },
   {
     tag: "Reception",
     title: "Reception",
     date: "Sunday · 22 November 2026",
     time: "Evening · 5:00 PM",
-    location: "Ripples Backwater Resort, Kureepuzha, Kollam 691601",
-    map: "https://share.google/eTZklByTkpiB100NY",
+    location: "Mukathala Mar Thoma Parish Hall, Kureepally",
+     map: "https://share.google/eTZklByTkpiB100NY",
   },
 ];
 
