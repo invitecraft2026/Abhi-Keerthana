@@ -7,21 +7,22 @@ import { SectionHeading } from "./SectionHeading";
 const venues = [
   {
     label: "Wedding Ceremony · 21 Nov",
-    nameLead: "Ripples",
-    nameItalic: "Backwater Resort",
-    address: "Ripples Backwater Resort, Kureepuzha, Kollam – 691601.",
-    alt: "Ripples Backwater Resort",
-    image: venue,
-    map: "https://share.google/eTZklByTkpiB100NY",
-  },
-  {
-    label: "Reception · 22 Nov",
     nameLead: "Mukathala Mar Thoma",
     nameItalic: "Parish Hall",
     address: "Mukathala Mar Thoma Parish Hall, Kureepally.",
     alt: "Mukathala Mar Thoma Parish Hall",
     image: venue,
     map: "https://share.google/HIN4OQ2POoNT5YTS8",
+  },
+  {
+    label: "Reception · 22 Nov",
+    nameLead: "Ripples",
+    nameItalic: "Backwater Resort",
+    address: "Ripples Backwater Resort, Kureepuzha, Kollam – 691601.",
+    alt: "Ripples Backwater Resort",
+    image: venue,
+    map: "https://share.google/eTZklByTkpiB100NY",
+    
   },
 ];
 
